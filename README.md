@@ -41,7 +41,8 @@ python recommender.py u1.base u1.test
 -   스크립트는 내부적으로 `dataset/` 경로를 자동으로 붙여 파일을 로드합니다.
 -   예측 결과는 `<base_file>_prediction.txt` 형식으로 프로젝트 루트에 저장됩니다. 예: `u1.base_prediction.txt`
 
-> [!TIP] > `test/` 폴더에 예시 예측 파일(`u1.base_prediction.txt` 등)이 포함되어 있어 출력 포맷을 쉽게 참고할 수 있습니다.
+> [!TIP]
+> > `test/` 폴더에 예시 예측 파일(`u1.base_prediction.txt` 등)이 포함되어 있어 출력 포맷을 쉽게 참고할 수 있습니다.
 
 ## 데이터
 
@@ -49,7 +50,8 @@ python recommender.py u1.base u1.test
 -   `dataset/u.item`: 아이템 메타(장르 포함). 인코딩은 ISO‑8859‑1로 로드합니다.
 -   `dataset/u.user`: 사용자 메타(나이, 성별, 직업 등)
 
-> [!IMPORTANT] > `recommender.py`는 아이템 파일을 ISO‑8859‑1로 읽도록 구현되어 있습니다. OS 기본 인코딩이 달라도 그대로 사용하세요.
+> [!IMPORTANT]
+> > `recommender.py`는 아이템 파일을 ISO‑8859‑1로 읽도록 구현되어 있습니다. OS 기본 인코딩이 달라도 그대로 사용하세요.
 
 ## 구현 개요
 
